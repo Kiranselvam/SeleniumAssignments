@@ -1,4 +1,4 @@
-package assignment3.week1;
+package assignment2.week1;
 
 public class FindIntersection {
 
