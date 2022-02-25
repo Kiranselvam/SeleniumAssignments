@@ -1,17 +1,23 @@
-package week1.day2.assignments.mandatory;
+package assignment3.week1;
 
 public class FindIntersection {
 
-	/*
-	 * Pseudo Code
-	
-	 * a) Declare An array for {3,2,11,4,6,7};	 
-	 * b) Declare another array for {1,2,8,4,9,7};
-	 * c) Declare for loop iterator from 0 to array length
-	 * d) Declare a nested for another array from 0 to array length
-	 * e) Compare Both the arrays using a condition statement
-	 
-	 *  f) Print the first array (shoud match item in both arrays)
-	 */
-	
+	public static void main(String[] args)
+	{
+		int[]arrayOne={3,2,11,4,6,7};
+		int[]arrayTwo={1,2,8,4,9,7};
+		for (int i = 0; i < arrayOne.length; i++)
+		{
+			for (int j = 0; j < arrayTwo.length; j++)
+			{
+				if(arrayOne[i]==arrayTwo[j])
+				{
+					System.out.println(arrayOne[i]);
+				}
+			}
+			
+		}
+		
+	}
+
 }
